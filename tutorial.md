@@ -29,30 +29,29 @@
 #### Example 1 - exactly replicating the example Binder [Tommy]
 
 1. Register for a [GitHub](https://github.com/) account if you do not have one.
-2. Go to the [binder-examples](https://github.com/binder-examples/r) GitHub repo
+2. Go to the [binder-examples](https://github.com/binder-examples/r) GitHub repo and click on one of the examples eg `r` or `jupyterlab`
 
     ![alt text](screenshots/binder_example_repo_smaller.PNG "binder_examples_repo.PNG - GitHub repo with binder examples")
 
-3. Click the green "Fork" button on the top-right corner of the page. 
+3. Click the grey "Fork" button on the top-right corner of the page, which will create your own copy of the repo under your own GitHub account.  
     
-    ##### [Screenshot of fork button]
-    ##### [Screenshot of after forking page]
-    now you have the repo under your own github account.
+    ![alt text](screenshots/fork_button.PNG "fork_button.PNG - The button to click to fork the repo")
 
-4. Go to the [mybinder](https://mybinder.org/) website.
-    ##### [Screenshot of the mybinder page]
-   copy the url of your forked repository `https://github.com/yourusername/r` and paste it under the `GitHub repo or URL` section.
- 
+4. Go to the [mybinder](https://mybinder.org/) website, copy the url of your forked repository `https://github.com/yourusername/r` and paste it under the `GitHub repo or URL` section.
+
+    ![alt text](screenshots/binder_webpage_smaller.PNG "Image of the Binder project homepage at mybinder.org")
+    
  You can leave the `Git branch, tag, or commit`  and `Path to a notebook file` options blank
 
 5. . When you click `launch`, Binder will start building what's called an *image* that contains all of the code and data and required software specified in the example repository you forked. This will probably take a while - eg 10 minutes.  
 
-    ##### [Screenshot of "build"]
+    ![alt text](screenshots/building_progress_bar.PNG "Binder loading progress bar")
     
     If you want to see what is happening, click 'show build logs'
-    ##### [Screenshot of "build logs"]
 
+    ![alt text](screenshots/build_log_example.PNG "Image of build logs")
     
+  
 7. When the Binder opens, by default you will see a Jupyter file browser
     ##### [Screenshot of the notebook]
     
