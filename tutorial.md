@@ -50,12 +50,16 @@
     If you want to see what is happening, click 'show build logs'
 
     ![alt text](screenshots/build_log_example.PNG "Image of build logs")
-    
+
   
-7. When the Binder opens, by default you will see a Jupyter file browser
-    ##### [Screenshot of the notebook]
+7. When the Binder opens, by default you will see a Jupyter file browser.
+The image below shows a Binder from the r example page shown above.
+  
+    ![alt text](screenshots/jupyter_file_browser.PNG "Image of Jupyter file browser")
     
-8. Click on the `.ipynb` file to open it - now you can interact with the code in your Browser, while it runs on a remote computer, thanks to Binder! Note that this instance is ephemeral and will time out after about an hour (or less) if it is not used
+8. Click on the `.ipynb` file to open it - now you can interact with the code in your Browser, while it runs on a remote computer, thanks to Binder! Note that this instance is ephemeral and will time out after about an hour (or less) if it is not used.
+
+    ![alt text](screenshots/notebook_example.PNG "Image of a notebook")
 
 9. If you want to open an RStudio session or R shiny app, then go back to your own github page `https://github.com/yourusername/r`, edit the `README.md`. 
  
