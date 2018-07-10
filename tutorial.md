@@ -31,7 +31,7 @@
 1. Register for a [GitHub](https://github.com/) account if you do not have one.
 2. Go to the [binder-examples](https://github.com/binder-examples/r) GitHub repo
 
-    ##### [Screeshot of `binder-examples` page]
+    ![alt text](screenshots/binder_examples_repo.PNG "binder_examples_repo.PNG - GitHub repo with binder examples")
 
 3. Click the green "Fork" button on the top-right corner of the page. 
     
