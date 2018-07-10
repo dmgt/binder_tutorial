@@ -31,8 +31,8 @@
 1. Register for a [GitHub](https://github.com/) account if you do not have one.
 2. Go to the [binder-examples](https://github.com/binder-examples/r) GitHub repo and click on one of the examples eg `r` or `jupyterlab`
 
-    ![alt text](screenshots/binder_example_repo_smaller.PNG "binder_examples_repo.PNG - GitHub repo with binder examples" =250x250)
-
+    <img src="screenshots/binder_example_repo_smaller.PNG" alt="test" width="600px"/> 
+    
 3. Click the grey "Fork" button on the top-right corner of the page, which will create your own copy of the repo under your own GitHub account.  
     
     ![alt text](screenshots/fork_button.PNG "fork_button.PNG - The button to click to fork the repo")
