@@ -33,7 +33,7 @@ Try it out:
 - Launch an academic paper with all the code and data and RStudio in Binder
 
 ### Making a Binder based on a fork of an existing Binder template 
-#### Example 1 - exactly replicating the example Binder [Tommy]
+#### Example 1 - exactly replicating the example Binder 
 
 1. Register for a [GitHub](https://github.com/) account if you do not have one.
 2. Go to the [binder-examples](https://github.com/binder-examples/r) GitHub repo and click on one of the examples eg `r` or `jupyterlab`
@@ -48,27 +48,27 @@ Try it out:
 
      <img src="screenshots/binder_webpage_smaller.PNG" alt="Screenshot of Binder project homepage at mybinder.org" width="700px"/> 
     
- You can leave the `Git branch, tag, or commit`  and `Path to a notebook file` options blank
+    You can leave the `Git branch, tag, or commit`  and `Path to a notebook file` options blank
 
-5. . When you click `launch`, Binder will start building what's called an *image* that contains all of the code and data and required software specified in the example repository you forked. This will probably take a while - eg 10 minutes.  
+5. When you click `launch`, Binder will start building what's called an *image* that contains all of the code and data and required software specified in the example repository you forked. This will probably take a while - eg 10 minutes. If too many people (eg a large entire classroom) try to do this at once, it may be more than mybinder.org can handle at once right now :)
 
-    ![alt text](screenshots/building_progress_bar.PNG "Binder loading progress bar")
+    <img src="screenshots/building_progress_bar.PNG" alt="Screenshot of Binder loading progress bar" width="700px"/> 
     
-    If you want to see what is happening, click 'show build logs'
+    If you want to see what is happening in more detail, click 'show build logs'
 
-    ![alt text](screenshots/build_log_example.PNG "Image of build logs")
+     <img src="screenshots/build_log_example.PNG" alt="Screenshot of build log showing the progress of installing different packages" width="700px"/>
 
   
 7. When the Binder opens, by default you will see a Jupyter file browser.
-The image below shows a Binder from the r example page shown above.
+The image below shows a Binder from the `r` example page shown above.
   
-    ![alt text](screenshots/jupyter_file_browser.PNG "Image of Jupyter file browser")
+     <img src="screenshots/jupyter_file_browser.PNG" alt="Jupyter file browser - a file directory" width="700px"/>
     
-8. Click on the `.ipynb` file to open it - now you can interact with the code in your Browser, while it runs on a remote computer, thanks to Binder! Note that this instance is ephemeral and will time out after about an hour (or less) if it is not used.
+8. Click on the file ending in `.ipynb`to open it - now you can interact with the code in your Browser, while it runs on a remote computer, thanks to Binder! Note that this session is temporary and will time out after about an hour (or less) if it is not used. The url generated will only work for this temporary session, in the future you will have to open the Binder again. 
 
-    ![alt text](screenshots/notebook_example.PNG "Image of a notebook")
+    <img src="screenshots/notebook_example.PNG" alt="Screenshot of a Jupyter notebook running R with some code and a plot" width="700px"/>
 
-9. If you want to open an RStudio session or R shiny app, then go back to your own github page `https://github.com/yourusername/r`, edit the `README.md`. 
+9. If you want to open an RStudio session or R shiny app instead of opening the R code in a Jupyter notebook, then go back to your own github page where you forked the example, eg  `https://github.com/yourusername/r`, and edit the `README.md`. 
  
 change 
 ```
@@ -88,12 +88,13 @@ RStudio: [![Binder](https://mybinder.org/v2/gh/yourusername/r/master?urlpath=rst
 
 RShiny: [![Binder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/yourusername/r/master?urlpath=shiny/bus-dashboard/)
 ```
-click `commit changes`, now you can click the badges to open your own binder in jupyter notebook, Rstudio session and R shiny app :) 
+and click `commit changes` at the bottom of the page. 
 
-You can also directly try opening a url containing `urlpath=rstudio` , eg <https://mybinder.org/v2/gh/yourusername/r/master?urlpath=rstudio>
+Now you can click the badges to open your own binder in a Jupyter notebook, *or* an Rstudio session or R shiny app :) 
+
+You can also directly try opening a url by adding `urlpath=rstudio` at the end , eg <https://mybinder.org/v2/gh/yourusername/r/master?urlpath=rstudio>
 
  
-
 
 ### Example 2 - adding some data to the example Binder 
 
