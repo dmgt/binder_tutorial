@@ -3,11 +3,13 @@
 
 
 ### Contents (TODO - add hyperlinks)
-- Motivation
-- Making a Binder
+- [Motivation](https://github.com/dmgt/binder_tutorial/blob/master/tutorial.md#motivation)
+  - Why might I want to use it?
+  - What is Binder? 
+- [Making a Binder](https://github.com/dmgt/binder_tutorial/blob/master/tutorial.md#making-a-binder-based-on-a-fork-of-an-existing-binder-template)
   - Example 1: Making a Binder based on a fork of an existing Binder template
-  - (TODO) Example 2: Adding some data to the example Binder 
-  - (TODO) Example 3 -  Making a Binder based on an existing repo of your own, from scratch
+  - TODO Example 2: Adding some data to the example Binder
+  - TODO Example 3 -  Making a Binder based on an existing repo of your own, from scratch
    
 ### Motivation
 
