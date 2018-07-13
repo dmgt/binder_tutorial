@@ -104,15 +104,15 @@ You can also directly try opening a url by adding `urlpath=rstudio` at the end ,
  
 
 ### Example 2 - adding some data to the example Binder 
-
+- TODO
 
 ### Example 3 -  Making a Binder based on an existing repo of your own, from scratch
-- TODO: R example
-    - Example from Hao: https://github.com/ha0ye/Power_of_Irma
-- TODO: Python example
+- R example from Hao: https://github.com/ha0ye/Power_of_Irma
+- Python example from Carol: https://github.com/willingc/ThinkDSP
 
 
 
 ### Can be added in future: 
+- FAQ (lots of questions summarized from breakout session [here](https://hackmd.io/SGRP3O3CSoOORDDQfpMlow?both#)
+
 - Making a binder of a research compendium that exists as a GitHub repo, for review and evaluation purposes (there are examples of such in the published literature that we can point to. This example might also include how to reposit and get the DOI for the object.)
-- FAQ
