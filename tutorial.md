@@ -109,8 +109,28 @@ You can also directly try opening a url by adding `urlpath=rstudio` at the end ,
 ### Example 3 -  Making a Binder based on an existing repo of your own, from scratch
 - R example from Hao: https://github.com/ha0ye/Power_of_Irma
 - Python example from Carol: https://github.com/willingc/ThinkDSP
+- R package from Hao: https://github.com/ha0ye/rEDM
 
+1. Check the information on repo2docker [configuration files](https://repo2docker.readthedocs.io/en/latest/config_files.html) to identify how to specify the package dependencies for your repo.
 
+*Note that you need a `runtime.txt` file to specify the version of Python or R.*
+
+*For an R package repo, you will want to add `R CMD INSTALL .` to the `postBuild` file so that the package will be installed from the contents of the repo (as the latest version of the package may not be available from MRAN yet).*
+
+2. Add these files to your existing repo, either in the root directory, or in a `/binder` folder.
+
+3. Follow the directions in step 4. of [Example 1](#example-1---a-binder-based-on-a-fork-of-an-existing-binder-template) above to create a new binder for the repo.
+
+4. If you modify files in the `master` branch of your repo, launching Binder will go through the steps of building a new image. Thus, if you want Binder links in your README, it's recommended to add those before launching Binder, so that you don't have to wait through another build of the image.
+
+Here are the sample links:
+```
+Jupyter+R: [![Binder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/yourusername/r/master?filepath=index.ipynb)
+
+RStudio: [![Binder](https://mybinder.org/v2/gh/yourusername/r/master?urlpath=rstudio)
+
+RShiny: [![Binder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/yourusername/r/master?urlpath=shiny/bus-dashboard/)
+```
 
 ### Can be added in future: 
 - FAQ (lots of questions summarized from breakout session [here](https://hackmd.io/SGRP3O3CSoOORDDQfpMlow?both#)
