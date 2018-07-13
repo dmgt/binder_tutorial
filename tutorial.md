@@ -1,7 +1,7 @@
 # Making your first Binder
 *A collaborative document*
 
-### Contents 
+## Contents 
 - [Motivation](https://github.com/dmgt/binder_tutorial/blob/master/tutorial.md#motivation)
   - Why might I want to use it?
   - What is Binder? 
@@ -12,28 +12,35 @@
    
 ## Motivation
 
-### Why might I want to use it? 
-
- - When do you use a binder? Running code from Github without having to download Python or R to create the Jupyter or RStudio environment (eg teaching a large class using RStudio without having to have all students download various versions of R)
-    - If you know how to use git, clone the repo and make edits on git. If you don't know how to use git, you can use binder to manipulate data 
-    - Why do we use containers? Creating a setting in which all computer architecture is equalized, variable hardware from person to person will not affect the memory allocated for calculations, which could effect data analysis 
-- "Freezing" and sharing a rendered version of a research compendium being entered into the scholarly record so that reviewers, readers, and possible reusers may evaluate the findings 
+ - Run publically-avalible code in your browser without having to download the software or data it depends on to your own laptop! 
+     - [**Try it here**](http://jupyter.org/try)
+ - Allow others to temporarily run and modify a python or R script you have written, regardless of the version(s) of Python or R (if any) they have installed
+ - Preserve and share a rendered version of a research compendium so that reviewers, readers, and possible reusers may quickly evaluate and share your work
 
 
 ### What *is* Binder?
-   - [Quoting](https://hackmd.io/s/S1fWYzBfQ#) Binder developer Carol Willing: It's a service, a way to display your work (eg with Jupyter notebooks or R Shiny), a clickable badge you can get for a GitHub repo, and a project you can deploy 
-   - A [diagram](https://github.com/dmgt/binder_brainstorming/blob/master/binder_diagram_draft.pdf) targeting novices 
-        - novice gave feedback this still assumed things they hadn't seen before eg what is a container anyway?
-   - [Official diagram](http://binderhub.readthedocs.io/en/latest/overview.html) from documentation
+As [summarized](https://hackmd.io/s/S1fWYzBfQ#) by Binder developer Carol Willing:
+
+---
+ - It's a service ([mybinder.org](https://mybinder.org/))
+ - A way to display your work (eg with Jupyter notebooks or R Shiny)
+ - A clickable badge you can get for a GitHub repo
+ -  A project you can deploy ([BinderHub](https://binderhub.readthedocs.io/en/latest/))
+ 
+---
+       
+  - [Official diagram](http://binderhub.readthedocs.io/en/latest/overview.html) from documentation
+
+ - A [diagram](https://github.com/dmgt/binder_brainstorming/blob/master/binder_diagram_draft.pdf) targeting novices 
 
 
-Try it out: 
-- https://try.jupyter.org
-- Launch a book with Binder: https://github.com/willingc/ThinkDSP
-- Launch an academic paper with all the code and data and RStudio in Binder
+### Some more cool examples of Binders
+- Launch code from an interactive textbook with Binder: https://github.com/willingc/ThinkDSP
+- Launch a tutorial with all the code and data from CERN for a gravity wave tutorial! ([click 'LIGO Binder' here](https://notebooks.gesis.org/))
+- Launch an academic paper with all the code and data in RStudio in Binder: https://github.com/cboettig/noise-phenomena
 
-## Making a Binder based on a fork of an existing Binder template 
-#### Example 1 - exactly replicating the example Binder 
+## How to make Binders
+#### Example 1 - A Binder based on a fork of an existing Binder template 
 
 1. Register for a [GitHub](https://github.com/) account if you do not have one.
 2. Go to the [binder-examples](https://github.com/binder-examples/r) GitHub repo and click on one of the examples eg `r` or `jupyterlab`
