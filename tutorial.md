@@ -5,7 +5,7 @@
 - [Motivation](https://github.com/dmgt/binder_tutorial/blob/master/tutorial.md#motivation)
   - Why might I want to use it?
   - What is Binder? 
-- [Making a Binder](https://github.com/dmgt/binder_tutorial/blob/master/tutorial.md#making-a-binder-based-on-a-fork-of-an-existing-binder-template)
+- [Making some Binders](https://github.com/dmgt/binder_tutorial/blob/master/tutorial.md#making-a-binder-based-on-a-fork-of-an-existing-binder-template)
   - Example 1: Making a Binder based on a fork of an existing Binder template
   - TODO Example 2: Adding some data to the example Binder
   - TODO Example 3 -  Making a Binder based on an existing repo of your own, from scratch
@@ -19,12 +19,18 @@
     - Why do we use containers? Creating a setting in which all computer architecture is equalized, variable hardware from person to person will not affect the memory allocated for calculations, which could effect data analysis 
 - "Freezing" and sharing a rendered version of a research compendium being entered into the scholarly record so that reviewers, readers, and possible reusers may evaluate the findings 
 
+
 #### What *is* Binder?
-   - Paraphrasing [Carol's summary](https://hackmd.io/s/S1fWYzBfQ#): it's a service, a way to display your work (eg with Jupyter notebooks or R Shiny), a clickable badge you can get for a GitHub repo, and a project you can deploy 
+   - [Quoting](https://hackmd.io/s/S1fWYzBfQ#) Binder developer Carol Willing: It's a service, a way to display your work (eg with Jupyter notebooks or R Shiny), a clickable badge you can get for a GitHub repo, and a project you can deploy 
    - A [diagram](https://github.com/dmgt/binder_brainstorming/blob/master/binder_diagram_draft.pdf) targeting novices 
         - novice gave feedback this still assumed things they hadn't seen before eg what is a container anyway?
    - [Official diagram](http://binderhub.readthedocs.io/en/latest/overview.html) from documentation
 
+
+Try it out: 
+- https://try.jupyter.org
+- Launch a book with Binder: https://github.com/willingc/ThinkDSP
+- Launch an academic paper with all the code and data and RStudio in Binder
 
 ### Making a Binder based on a fork of an existing Binder template 
 #### Example 1 - exactly replicating the example Binder [Tommy]
@@ -32,15 +38,15 @@
 1. Register for a [GitHub](https://github.com/) account if you do not have one.
 2. Go to the [binder-examples](https://github.com/binder-examples/r) GitHub repo and click on one of the examples eg `r` or `jupyterlab`
 
-    <img src="screenshots/binder_example_repo_smaller.PNG" alt="test" width="600px"/> 
+    <img src="screenshots/binder_example_repo_smaller.PNG" alt="Screenshot of Binder Examples GitHub repository" width="700px"/> 
     
 3. Click the grey "Fork" button on the top-right corner of the page, which will create your own copy of the repo under your own GitHub account.  
-    
-    ![alt text](screenshots/fork_button.PNG "fork_button.PNG - The button to click to fork the repo")
+
+     <img src="screenshots/fork_button.PNG" alt="Screenshot showing fork button on upper right corner" width="700px"/> 
 
 4. Go to the [mybinder](https://mybinder.org/) website, copy the url of your forked repository `https://github.com/yourusername/r` and paste it under the `GitHub repo or URL` section.
 
-    ![alt text](screenshots/binder_webpage_smaller.PNG "Image of the Binder project homepage at mybinder.org")
+     <img src="screenshots/binder_webpage_smaller.PNG" alt="Screenshot of Binder project homepage at mybinder.org" width="700px"/> 
     
  You can leave the `Git branch, tag, or commit`  and `Path to a notebook file` options blank
 
