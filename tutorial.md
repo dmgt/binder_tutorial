@@ -1,8 +1,7 @@
-# Making your very first Binder
+# Making your first Binder
 *A collaborative document*
 
-
-### Contents (TODO - add hyperlinks)
+### Contents 
 - [Motivation](https://github.com/dmgt/binder_tutorial/blob/master/tutorial.md#motivation)
   - Why might I want to use it?
   - What is Binder? 
