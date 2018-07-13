@@ -10,9 +10,9 @@
   - TODO Example 2: Adding some data to the example Binder
   - TODO Example 3 -  Making a Binder based on an existing repo of your own, from scratch
    
-### Motivation
+## Motivation
 
-#### Why might I want to use it? 
+### Why might I want to use it? 
 
  - When do you use a binder? Running code from Github without having to download Python or R to create the Jupyter or RStudio environment (eg teaching a large class using RStudio without having to have all students download various versions of R)
     - If you know how to use git, clone the repo and make edits on git. If you don't know how to use git, you can use binder to manipulate data 
@@ -20,7 +20,7 @@
 - "Freezing" and sharing a rendered version of a research compendium being entered into the scholarly record so that reviewers, readers, and possible reusers may evaluate the findings 
 
 
-#### What *is* Binder?
+### What *is* Binder?
    - [Quoting](https://hackmd.io/s/S1fWYzBfQ#) Binder developer Carol Willing: It's a service, a way to display your work (eg with Jupyter notebooks or R Shiny), a clickable badge you can get for a GitHub repo, and a project you can deploy 
    - A [diagram](https://github.com/dmgt/binder_brainstorming/blob/master/binder_diagram_draft.pdf) targeting novices 
         - novice gave feedback this still assumed things they hadn't seen before eg what is a container anyway?
@@ -32,7 +32,7 @@ Try it out:
 - Launch a book with Binder: https://github.com/willingc/ThinkDSP
 - Launch an academic paper with all the code and data and RStudio in Binder
 
-### Making a Binder based on a fork of an existing Binder template 
+## Making a Binder based on a fork of an existing Binder template 
 #### Example 1 - exactly replicating the example Binder 
 
 1. Register for a [GitHub](https://github.com/) account if you do not have one.
@@ -106,6 +106,6 @@ You can also directly try opening a url by adding `urlpath=rstudio` at the end ,
 
 
 
-
-###  Making a binder of a research compendium that exists as a GitHub repo, for review and evaluation purposes
-- there are examples of such in the published literature that we can point to. This example might also include how to reposit and get the DOI for the object.
+### Can be added in future: 
+- Making a binder of a research compendium that exists as a GitHub repo, for review and evaluation purposes (there are examples of such in the published literature that we can point to. This example might also include how to reposit and get the DOI for the object.)
+- FAQ
